@@ -8,13 +8,7 @@ import org.testng.annotations.Test;
 
 public class Sample1 extends Base{
 	
-		@BeforeClass
-		private void tc3() {
-			getdriver();
-			loadurl("https://www.facebook.com/");
-			maximize();
-		}
-
+		
 		
 		@Test
 		private void tc0() {
@@ -34,8 +28,9 @@ public class Sample1 extends Base{
 		}
 		
 		
-		
-		
-		
+		@Test
+		 public void tc2() {
+			System.out.println("done");
+		}
 
 }
